@@ -1,0 +1,43 @@
+.icon_header a i{
+    padding-right: 10px;
+}
+/* .icon_header:hover{
+    
+} */
+
+.login:hover{
+    -webkit-transform: scale(1.5);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+    transition: 1s ease;
+}
+.icon a{
+    color: black; 
+    text-decoration: none;
+}
+
+.popularvisit img{
+    width: 190px; 
+    height: 220px;
+    margin-top: 20px; 
+    box-sizing: border-box;
+    border-radius: 15px; 
+    transition: 1s ease;
+}
+
+.popularvisit img:hover{
+    -webkit-transform: scale(1.5);
+    -ms-transform: scale(1.5);
+    transform: scale(1.5);
+    transition: 1s ease;
+}
+
+.icon_footer a i{
+    font-size: 25px;
+    -ms-flex-item-align: center;
+    transition: 1s ease;
+}
+    
+.icon_footer a i:hover{
+    transform: rotate(45deg);
+}
